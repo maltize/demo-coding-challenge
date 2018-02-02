@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  monster_1_id: 1
+  monster_2_id: 1
+  monster_3_id: 1
+  user: one
+
+two:
+  monster_1_id: 1
+  monster_2_id: 1
+  monster_3_id: 1
+  user: two

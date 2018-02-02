@@ -4,6 +4,7 @@ class User < ApplicationRecord
 				 :omniauthable, :omniauth_providers => [:facebook]
 
   has_many :monsters
+  has_many :teams
 
 	def self.new_with_session(params, session)
 	  super.tap do |user|
